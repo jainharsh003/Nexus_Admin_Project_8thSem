@@ -1,0 +1,6 @@
+@LoginSignupBackend_HostAddress = http://localhost:5183
+
+GET {{LoginSignupBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

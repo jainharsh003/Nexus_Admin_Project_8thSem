@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LoginSignupBackend/LoginSignupBackend.csproj" />
+  <Project Path="UserDetails/UserDetails.csproj" />
+</Solution>

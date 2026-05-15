@@ -1,0 +1,579 @@
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : DBG
+Message    : Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : DBG
+Message    : Hosting starting
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : INF
+Message    : User profile is available. Using 'C:\Users\Harsh Jain\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : DBG
+Message    : Reading data from file 'C:\Users\Harsh Jain\AppData\Local\ASP.NET\DataProtection-Keys\key-119ab8c8-d3c2-4985-8d10-eb72b9b30e86.xml'.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : DBG
+Message    : Found key {119ab8c8-d3c2-4985-8d10-eb72b9b30e86}.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : DBG
+Message    : Considering key {119ab8c8-d3c2-4985-8d10-eb72b9b30e86} with expiration date 2026-04-27 05:28:50Z as default key.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : DBG
+Message    : Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : DBG
+Message    : Decrypting secret element using Windows DPAPI.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : DBG
+Message    : Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:03 UTC
+Level      : DBG
+Message    : Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:04 UTC
+Level      : DBG
+Message    : Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:04 UTC
+Level      : DBG
+Message    : Using key {119ab8c8-d3c2-4985-8d10-eb72b9b30e86} as the default key.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:04 UTC
+Level      : DBG
+Message    : Key ring with default key {119ab8c8-d3c2-4985-8d10-eb72b9b30e86} was loaded during application startup.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:04 UTC
+Level      : DBG
+Message    : Middleware loaded
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:04 UTC
+Level      : DBG
+Message    : Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14941 B).
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:04 UTC
+Level      : DBG
+Message    : Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:04 UTC
+Level      : INF
+Message    : GlobalExceptionMiddleware initialized.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:04 UTC
+Level      : DBG
+Message    : Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : INF
+Message    : Now listening on: https://localhost:7218
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : INF
+Message    : Now listening on: http://localhost:5183
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Loaded hosting startup assembly LoginSignupBackend
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQT" received FIN.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQU" received FIN.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQU" accepted.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQT" accepted.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQU" started.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQT" started.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Failed to authenticate HTTPS connection.
+Exception  : System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Failed to authenticate HTTPS connection.
+Exception  : System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQT" stopped.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQU" stopped.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQU" sending FIN because: "The Socket transport's send loop completed gracefully."
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQT" sending FIN because: "The Socket transport's send loop completed gracefully."
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:05 UTC
+Level      : INF
+Message    : Application started. Press Ctrl+C to shut down.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:06 UTC
+Level      : INF
+Message    : Hosting environment: Development
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:06 UTC
+Level      : INF
+Message    : Content root path: C:\Users\Harsh Jain\Desktop\Project\LoginSignupBackend\LoginSignupBackend
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:06 UTC
+Level      : DBG
+Message    : Hosting started
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:07 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQV" accepted.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:07 UTC
+Level      : DBG
+Message    : Connection id "0HNK42OKO4LQV" started.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:08 UTC
+Level      : DBG
+Message    : Connection 0HNK42OKO4LQV established using the following protocol: "Tls13"
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:08 UTC
+Level      : INF
+Message    : Request starting HTTP/2 GET https://localhost:7218/swagger/index.html - null null
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:08 UTC
+Level      : DBG
+Message    : Wildcard detected, all requests with hosts will be allowed.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:08 UTC
+Level      : DBG
+Message    : No candidates found for the request path '/swagger/index.html'
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:08 UTC
+Level      : DBG
+Message    : Request did not match any endpoints
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : DBG
+Message    : Response markup is scheduled to include Browser Link script injection.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : DBG
+Message    : Response markup is scheduled to include browser refresh script injection.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : DBG
+Message    : Response markup was updated to include Browser Link script injection.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : DBG
+Message    : Response markup was updated to include browser refresh script injection.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : INF
+Message    : Request starting HTTP/2 GET https://localhost:7218/_framework/aspnetcore-browser-refresh.js - null null
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : INF
+Message    : Request starting HTTP/2 GET https://localhost:7218/_vs/browserLink - null null
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : INF
+Message    : Request finished HTTP/2 GET https://localhost:7218/swagger/index.html - 200 null text/html;charset=utf-8 930.179ms
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : DBG
+Message    : Script injected: /_framework/aspnetcore-browser-refresh.js
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : INF
+Message    : Request finished HTTP/2 GET https://localhost:7218/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 90.7559ms
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : INF
+Message    : Request finished HTTP/2 GET https://localhost:7218/_vs/browserLink - 200 null text/javascript; charset=UTF-8 179.1411ms
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : INF
+Message    : Request starting HTTP/2 GET https://localhost:7218/swagger/v1/swagger.json - null null
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : DBG
+Message    : No candidates found for the request path '/swagger/v1/swagger.json'
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : DBG
+Message    : Request did not match any endpoints
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:09 UTC
+Level      : INF
+Message    : Request finished HTTP/2 GET https://localhost:7218/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.4921ms
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : INF
+Message    : Request starting HTTP/2 GET https://localhost:7218/api/auth/validate - null null
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : DBG
+Message    : 1 candidate(s) found for the request path '/api/auth/validate'
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : DBG
+Message    : Endpoint 'LoginSignup.Controllers.AuthController.ValidateToken (LoginSignupBackend)' with route pattern 'api/auth/validate' is valid for the request path '/api/auth/validate'
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : DBG
+Message    : Request matched endpoint 'LoginSignup.Controllers.AuthController.ValidateToken (LoginSignupBackend)'
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : DBG
+Message    : Static files was skipped as the request already matched an endpoint.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : DBG
+Message    : AuthenticationScheme: Bearer was not authenticated.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : DBG
+Message    : Policy authentication schemes  did not succeed
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : INF
+Message    : Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : INF
+Message    : AuthenticationScheme: Bearer was challenged.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:18 UTC
+Level      : INF
+Message    : Request finished HTTP/2 GET https://localhost:7218/api/auth/validate - 401 0 null 504.2911ms
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : INF
+Message    : Request starting HTTP/2 GET https://localhost:7218/api/user/profile - null null
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : DBG
+Message    : 1 candidate(s) found for the request path '/api/user/profile'
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : DBG
+Message    : Endpoint 'LoginSignup.Controllers.UserController.GetProfile (LoginSignupBackend)' with route pattern 'api/user/profile' is valid for the request path '/api/user/profile'
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : DBG
+Message    : Request matched endpoint 'LoginSignup.Controllers.UserController.GetProfile (LoginSignupBackend)'
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : DBG
+Message    : Static files was skipped as the request already matched an endpoint.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : DBG
+Message    : AuthenticationScheme: Bearer was not authenticated.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : DBG
+Message    : Policy authentication schemes  did not succeed
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : INF
+Message    : Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User|Admin)
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : INF
+Message    : AuthenticationScheme: Bearer was challenged.
+Exception  : 
+============================================================
+
+============================================================
+Timestamp  : 2026-03-17 16:43:43 UTC
+Level      : INF
+Message    : Request finished HTTP/2 GET https://localhost:7218/api/user/profile - 401 0 null 74.1534ms
+Exception  : 
+============================================================
+
